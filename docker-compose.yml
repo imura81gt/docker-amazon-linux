@@ -1,0 +1,10 @@
+version: '3'
+services:
+  amazonlinux:
+    build:
+      context: ./1
+      dockerfile: Dockerfile
+  amazonlinux2:
+    build:
+      context: ./2
+      dockerfile: Dockerfile
